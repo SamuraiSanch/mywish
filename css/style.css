@@ -76,3 +76,13 @@ background:#FFF5F5;
    
 
 }
+.cards{
+    display:flex;
+    margin-bottom:160px;
+    justify-content:center;
+}
+.card{
+    display:block;
+   border-radius:4px;
+  margin:0 60px;
+}
