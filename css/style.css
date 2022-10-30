@@ -76,13 +76,61 @@ background:#FFF5F5;
    
 
 }
-.cards{
-    display:flex;
+
+.images {
+    display: grid;
+    grid-template-columns: max-content max-content max-content max-content max-content;
+    align-items: center;
+    justify-content: center;
     margin-bottom:160px;
-    justify-content:center;
-}
-.card{
-    display:block;
-   border-radius:4px;
-  margin:0 60px;
-}
+   }
+   .image{
+    margin:0 45px 0 45px;
+     border-radius: 6px;
+    color:#FC6A57;
+    font-family: 'Nunito';
+font-weight: 400;
+font-size: 20px;
+line-height: 140%;
+-webkit-transition: 0.35s ease; /* Safari and Chrome */
+-moz-transition: 0.35s ease; /* Firefox 4 */
+-o-transition: 0.35s ease; /* Opera */
+transition:0.35s ease;
+
+   }
+ .mid{
+    margin-top:-25px;
+background-color:#FC6A57;
+color:white;
+position:relative;
+border: 1px solid #FC6A57;
+ }
+   .image:hover{
+     transform:scale(1.1);
+     
+     
+   }
+   .features-block span {
+     display: grid;
+     justify-items: center;
+    /* -webkit-transform-origin: bottom; */
+   }
+   
+  
+   .features-block p{
+    margin-top:30px;
+    margin-bottom:40px;
+    
+   }
+  .heart{
+    position:absolute;
+    left:28px;
+    top:30px;
+  }
+  
+
+  .like{
+    position:absolute;
+    left:20px;
+    top:20px;
+  }
