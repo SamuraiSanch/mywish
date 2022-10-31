@@ -85,7 +85,7 @@ background:#FFF5F5;
     margin-bottom:160px;
    }
    .image{
-    margin:0 45px 0 45px;
+    margin:0 55px 0 55px;
      border-radius: 6px;
     color:#FC6A57;
     font-family: 'Nunito';
@@ -104,6 +104,7 @@ background-color:#FC6A57;
 color:white;
 position:relative;
 border: 1px solid #FC6A57;
+margin:0 35px 0 35px;
  }
    .image:hover{
      transform:scale(1.1);
@@ -128,9 +129,45 @@ border: 1px solid #FC6A57;
     top:30px;
   }
   
-
-  .like{
+.features-block:nth-child(4) p{
+  margin-bottom:20px;
+  margin-top:20px;
+}
+  .star{
     position:absolute;
     left:20px;
     top:20px;
   }
+
+
+  .like{
+    position:absolute;
+    left:32px;
+    top:28px;
+  }
+ .dislike{
+  top:31px;
+  left:32px;
+ }
+ .col{
+  color:#1F3865;
+ }
+ .features-block .mid:nth-child(3){
+  background-color:#1F3865;
+  border: 1px solid #1F3865;
+ }
+ .wishlist{
+  display:flex;
+  justify-content:center;
+  margin-bottom:60px;
+ }
+ .wish{
+  margin:0 30px;
+  -webkit-transition: 0.35s ease; /* Safari and Chrome */
+-moz-transition: 0.35s ease; /* Firefox 4 */
+-o-transition: 0.35s ease; /* Opera */
+transition:0.35s ease;
+ }
+ .wish:hover{
+transform:scale(1.1);
+ }
