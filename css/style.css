@@ -64,7 +64,7 @@ background:#FFF5F5;
     display:flex;
     justify-content:center;
     align-items:center;
-    margin-bottom:38px;
+    margin-bottom:54px;
 }
 .card-header{
     font-family: 'Baloo 2';
@@ -85,6 +85,7 @@ background:#FFF5F5;
     margin-bottom:160px;
    }
    .image{
+    position:relative;
     margin:0 55px 0 55px;
      border-radius: 6px;
     color:#FC6A57;
@@ -99,6 +100,7 @@ transition:0.35s ease;
 
    }
  .mid{
+  top:-16px;
     margin-top:-25px;
 background-color:#FC6A57;
 color:white;
@@ -162,6 +164,7 @@ margin:0 35px 0 35px;
   margin-bottom:60px;
  }
  .wish{
+ 
   margin:0 30px;
   -webkit-transition: 0.35s ease; /* Safari and Chrome */
 -moz-transition: 0.35s ease; /* Firefox 4 */
@@ -171,3 +174,19 @@ transition:0.35s ease;
  .wish:hover{
 transform:scale(1.1);
  }
+.card-outside:nth-child(9){
+  margin-bottom:38px;
+}
+.wish:first-of-type{
+  position:relative;
+}
+.wish-block{
+  top:0px;
+  left:0px;
+  position:absolute;
+  background-color:#FC6A57CC;
+  opacity:0.8;
+  width:388px;
+  height:388px;
+  
+}
