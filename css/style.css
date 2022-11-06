@@ -184,9 +184,38 @@ transform:scale(1.1);
   top:0px;
   left:0px;
   position:absolute;
+  
+  background: linear-gradient(0deg, rgba(252, 106, 87, 0.8), rgba(252, 106, 87, 0.8));
+  /*background:rgba(#FC6A57CC,0.5);
   background-color:#FC6A57CC;
-  opacity:0.8;
+  opacity:0.8; */
   width:388px;
   height:388px;
-  
+  color:white;
+  text-align:center;
+
+}
+
+.wish-header{
+  font-family: 'Baloo 2';
+  font-weight: 800;
+font-size: 30px;
+line-height: 120%;
+margin-top:57px;
+
+}
+.gift{
+  margin-top:48px;
+}
+.ref{
+  font-family: 'Nunito';
+  font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+  margin-top:71px;
+}
+@media only screen
+and (min-width:0px)
+and (max-width:1300px){
+
 }
