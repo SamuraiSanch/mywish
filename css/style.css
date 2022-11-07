@@ -79,7 +79,7 @@ background:#FFF5F5;
 
 .images {
     display: grid;
-    grid-template-columns: max-content max-content max-content max-content max-content;
+    grid-template-columns: max-content max-content max-content max-content max-content max-content;
     align-items: center;
     justify-content: center;
     margin-bottom:160px;
@@ -159,6 +159,7 @@ margin:0 35px 0 35px;
   border: 1px solid #1F3865;
  }
  .wishlist{
+  
   display:flex;
   justify-content:center;
   margin-bottom:60px;
@@ -217,5 +218,94 @@ line-height: 140%;
 @media only screen
 and (min-width:0px)
 and (max-width:1300px){
+.images{
+  display:block;
+  margin-bottom:6px;
+}
+
+.wishlist{
+  display:block;
+ 
+}
+
+.image-current{
+  max-width:275px;
+  max-height:200px;
+}
+.image-small{
+  max-width:80px;
+  max-height:80px;
+}
+
+
+.wish-current{
+ max-width:335px;
+ max-height:335px;
+}
+.mid{
+  background-color:#fff;
+  color:#FC6A57;
+  border:none;
+  top:0px;
+}
+.features-block .mid:nth-child(3){
+  background-color:#fff;
+  border: none;
+  color:#1F3865;
+ }
+.wish-block{
+  position:static;
+  background:#fff;
+  color:#FC6A57;
+  width:auto;
+  height:auto;
+}
+.wish-header{
+  display:none;
+}
+.heart{
+  display:none;
+}
+.star{
+  display:none;
+}
+.like{
+  display:none;
+}
+.dislike{
+  display:none;
+}
+.gift{
+  display:none;
+}
+.card-outside{
+  margin-bottom:46px;
+}
+.features-block p{
+  margin-top:30px;
+  margin-bottom:60px;
+  
+ }
+ /* rework */
+ /*.image:nth-child(1){
+  display:flex;
+  margin-bottom:20px;
+}
+ .image:nth-child(2){
+  display:flex;
+  margin-bottom:20px;
+}
+ .image:nth-child(3){
+  display:flex;
+  margin-bottom:20px;
+}
+ .image:nth-child(4){
+  display:flex;
+  margin-bottom:20px;
+}
+.image:nth-child(5){
+  display:flex;
+  margin-bottom:20px;
+}*/
 
 }
